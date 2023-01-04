@@ -1,20 +1,24 @@
 *{
     margin: 0;
-    font-family: font-family: 'Open Sans', sans-serif;
+    font-family: font-family: 'Open Sans';
 
 }
 
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    margin: 0px 200px;
+    padding: 20px 0px;
 }
 nav ul{
     display: flex;
+    align-items: center;
 }
 nav li{
     list-style: none;
     margin-left: 50px;
+    
+
   
 }
 .nav-title{
@@ -26,8 +30,50 @@ font-size: 45px;
     color: #FD6E0A;
 }
 .btn-primary{
+    font-weight: 700;
+font-size: 20px;
     background: #FD6E0A;
 border-radius: 5px;
 height: 64px;
 border: 0px;
+color: #FFFFFF;
+padding: 20px 30px;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    margin: 0 200px;
+    margin-right: 3%;
+    justify-content: space-between;
+}
+
+.info{
+    font-weight: 600;
+font-size: 45px;
+line-height: 61px;
+color: #474747;
+font-family: 'Open Sans';
+}
+.name{
+    font-weight: 700;
+    font-size: 85px;
+    font-family: 'Open Sans';
+    margin-bottom: 20px;
+}
+
+.signature{
+    font-weight: 400;
+font-size: 18px;
+color: #757575;
+margin-bottom: 20px;
+
+
+}
+
+.background_image{
+    background: #FFF8F3;
+    background-image: url("images/header_bg.png"), url("images/developer.png");
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+
 }
